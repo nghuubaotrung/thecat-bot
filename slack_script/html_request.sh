@@ -7,16 +7,17 @@ ICON=":man_in_business_suit_levitating:"
 ICON=":thecat:"
 
 ## テスト用
-WEBHOOK_URL="https://hooks.slack.com/services/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"
+#WEBHOOK_URL="${URL}"
+
 ## 本番
-#WEBHOOK_URL="https://hooks.slack.com/services/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"
+WEBHOOK_URL="${URL}"
 
 #author="nghuubaotrung"
 
 ## Publicフォルダーからファイル（markdown, pdf, powerpointなど）取得し、ロカールに保存する
 ### 日付に紐付けるフォルダー名を作ればもっと楽かな？
 ### ファイルが存在しない場合はどうする？
-PUBLIC_PATH=/Volumes/AdwaysPublic/personal/system/nguyen_huubaotrung/test_rakurakuslider
+PUBLIC_PATH=/Volumes/personal/system/nguyen_huubaotrung/test_rakurakuslider
 INPUT_PATH=/Users/nguyen_huubaotrung/Source-code/thecat-bot/
 cp $PUBLIC_PATH/* $INPUT_PATH
 

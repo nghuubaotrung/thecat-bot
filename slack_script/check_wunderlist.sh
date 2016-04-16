@@ -5,9 +5,10 @@ OPERATION_CHANNEL="#test" #14appdriver
 ICON=":thecat:"
 
 ## テスト用
-#WEBHOOK_URL="https://hooks.slack.com/services/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"
+#WEBHOOK_URL="${URL}"
+
 ## 本番
-WEBHOOK_URL="https://hooks.slack.com/services/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"
+WEBHOOK_URL="${URL}"
 
 #author="nghuubaotrung"
 

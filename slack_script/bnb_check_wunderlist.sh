@@ -4,7 +4,7 @@ SEND_CHANNEL="bnb"
 OPERATION_CHANNEL="#test"
 ICON=":thecat:"
 
-WEBHOOK_URL="https://hooks.slack.com/services/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"
+WEBHOOK_URL="${URL}"
 
 #author="nghuubaotrung"
 
